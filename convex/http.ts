@@ -1,4 +1,4 @@
-import { WebhookEvent } from "@clerk/nextjs/server";
+import { WebhookEvent } from "@clerk/backend";
 import { Webhook } from "svix";
 import { httpAction } from "./_generated/server";
 import { internal } from "./_generated/api";
